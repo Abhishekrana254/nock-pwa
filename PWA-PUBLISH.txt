@@ -1,0 +1,20 @@
+Nock PWA — live URL (after Pages build):
+https://abhishekrana254.github.io/nock-pwa/
+
+Privacy (for AdSense application):
+https://abhishekrana254.github.io/nock-privacy/
+
+--- AdSense (web ads) ---
+1. https://www.google.com/adsense → add site abhishekrana254.github.io/nock-pwa
+2. After approval, open site-config.js → set adsenseClient to your ca-pub-… id
+3. Update ads.txt with your pub id (line in that file)
+4. Push to GitHub; banner shows on game
+
+--- Google Ads (PWA traffic test, NOT Play install) ---
+1. https://ads.google.com → New campaign → Sales or Traffic → Website visits
+2. Final URL: https://abhishekrana254.github.io/nock-pwa/
+3. Location: India. Devices: Mobile phones. Budget: start ₹100/day
+4. Track in a sheet: Ad spend | Sessions | AdSense revenue | Revenue/spend
+5. Do not spend until AdSense is approved and showing, or you only measure traffic cost
+
+Play app path stays separate: App install campaign + AdMob after AAB is live.

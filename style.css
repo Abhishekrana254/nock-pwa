@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #fff; }
+canvas {
+  width: min(100vw, 430px);
+  height: 100dvh;
+  display: block;
+  margin: 0 auto;
+  touch-action: none;
+  background: #fff;
+}
+body.has-ads canvas {
+  height: calc(100dvh - 52px - env(safe-area-inset-bottom));
+}
+#nock-ad-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  min-height: 50px;
+  padding-bottom: env(safe-area-inset-bottom);
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+}

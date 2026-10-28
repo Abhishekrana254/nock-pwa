@@ -1,0 +1,2 @@
+# After AdSense approval, add one line from AdSense → Account → ads.txt:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
